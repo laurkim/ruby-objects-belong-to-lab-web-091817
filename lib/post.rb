@@ -3,7 +3,7 @@ class Post
   attr_accessor :author
   attr_reader :title
 
-  def initialize(title)
+  def title=(title)
     @title = title
   end
 
